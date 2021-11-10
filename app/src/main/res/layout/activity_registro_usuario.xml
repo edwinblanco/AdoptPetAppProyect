@@ -66,7 +66,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/NombreRegistro" />
 
     <TextView
         android:id="@+id/textView7"
@@ -80,7 +80,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/DirreccionRegistro" />
 
     <TextView
         android:id="@+id/textView8"
@@ -94,7 +94,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/EdadRegistro" />
 
     <TextView
         android:id="@+id/textView9"
@@ -107,11 +107,11 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toBottomOf="@+id/UsuarioRegistro"
         android:textColor="#000000" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/NombreRegistro"
         android:layout_width="258dp"
         android:layout_height="46dp"
         android:layout_marginStart="32dp"
@@ -127,7 +127,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/DirreccionRegistro"
         android:layout_width="262dp"
         android:layout_height="42dp"
         android:layout_marginStart="32dp"
@@ -143,7 +143,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/EdadRegistro"
         android:layout_width="252dp"
         android:layout_height="45dp"
         android:layout_marginStart="32dp"
@@ -159,7 +159,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/UsuarioRegistro"
         android:layout_width="257dp"
         android:layout_height="43dp"
         android:layout_marginStart="32dp"
@@ -175,7 +175,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/ContraseñaRegistro"
         android:layout_width="251dp"
         android:layout_height="43dp"
         android:layout_marginStart="32dp"
@@ -190,21 +190,23 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         tools:ignore="TouchTargetSizeCheck" />
 
+
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btRegistrarme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="#307E1E"
+        android:onClick="registrarUsuario"
         android:text="Registrarme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/ContraseñaRegistro" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btVolverSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -216,7 +218,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/btRegistrarme" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

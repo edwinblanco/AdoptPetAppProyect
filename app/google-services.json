@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381567017625",
+    "project_id": "adoptpetapp-c53b2",
+    "storage_bucket": "adoptpetapp-c53b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381567017625:android:7b5e9dd038b98535304e08",
+        "android_client_info": {
+          "package_name": "com.example.adoptpetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381567017625-2u8dqmv2jo7bs1l74hc68gq106r2lbqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs4j6pyISzL4vO9Sejv8jNx_z8YXDd-co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381567017625-2u8dqmv2jo7bs1l74hc68gq106r2lbqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
