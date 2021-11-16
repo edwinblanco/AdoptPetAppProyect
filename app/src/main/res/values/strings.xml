@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">AdoptPetApp</string>
+    <string name="titulo_app">ADOPTPET</string>
+
+    <string name="correo_login">Correo electrónico</string>
+    <string name="password_login">Contraseña</string>
+    <string name="password_btnIniciar">Iniciar sesión</string>
+    <string name="password_btnRegistro">Registrarme</string>
+
+
+    <string name="titulo_detalle_mascota">Nombre: %1$s</string>
+    <string name="adopcion_detalle_mascota">Estado: %1$s</string>
+    <string name="estado_detalle_mascota">Género: %1$s</string>
+    <string name="edad_detalle_mascota">Edad (meses): %1$s</string>
+    <string name="descripcion_detalle_mascota">Descripción: %1$s</string>
+    <string name="contacto_detalle_mascota">Contactar a: %1$s</string>
+    <string name="btn_eliminar_detalle_mascota">Eliminar</string>
+    <string name="btn_editar_detalle_mascota">Editar</string>
+
+    <string name="Adapter_estado">%1$s</string>
+    <string name="Adapter_nombre">%1$s</string>
+    <string name="Adapter_edad">%1$s</string>
+    <string name="Adapter_genero">%1$s</string>
+    <string name="Adapter_contacto">%1$s</string>
+
+    <string name="titulo_publicar">Publica una mascota</string>
+    <string name="Publicar_urlImagen">Url Imagen:</string>
+    <string name="Publicar_nombre">Nombre:</string>
+    <string name="Publicar_genero">Género:</string>
+    <string name="Publicar_edad">Edad (meses):</string>
+    <string name="Publicar_descrip">Descripción:</string>
+    <string name="Publicar_estado">Estado:</string>
+    <string name="Publicar_contacto">Contactar a:</string>
+    <string name="Publicar_btn">PUBLICAR</string>
+
+
 </resources>

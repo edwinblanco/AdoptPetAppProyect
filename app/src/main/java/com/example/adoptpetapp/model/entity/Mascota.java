@@ -2,19 +2,22 @@ package com.example.adoptpetapp.model.entity;
 
 import android.telephony.mbms.StreamingServiceInfo;
 
-public class Mascota {
-    private int idMascota;
+import java.io.Serializable;
+
+public class Mascota implements Serializable {
+    private String idMascota;
     private String urlImagen;
     private String nombre;
     private String genero;
     private int edad;
     private String descripcion;
     private String estado;
+    private String contacto;
 
     public Mascota() {
     }
 
-    public Mascota(int idMascota, String urlImagen, String nombre, String genero, int edad, String descripcion, String estado) {
+    public Mascota(String urlImagen, String nombre, String genero, int edad, String descripcion, String estado, String contacto) {
         this.idMascota = idMascota;
         this.urlImagen = urlImagen;
         this.nombre = nombre;
@@ -22,13 +25,15 @@ public class Mascota {
         this.edad = edad;
         this.descripcion = descripcion;
         this.estado = estado;
+        this.idMascota = idMascota;
+        this.contacto = contacto;
     }
 
-    public int getIdMascota() {
+    public String getIdMascota() {
         return idMascota;
     }
 
-    public void setIdMascota(int idMascota) {
+    public void setIdMascota(String idMascota) {
         this.idMascota = idMascota;
     }
 
@@ -78,5 +83,13 @@ public class Mascota {
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    public String getContacto() {
+        return contacto;
+    }
+
+    public void setContacto(String contacto) {
+        this.contacto = contacto;
     }
 }

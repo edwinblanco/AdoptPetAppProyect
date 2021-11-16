@@ -17,71 +17,94 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/tv_estado_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:text="PERDIDO"
+            android:layout_marginEnd="8dp"
+            android:text="@string/Adapter_estado"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintStart_toEndOf="@+id/iv_mascota_item"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/tv_nombre_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:text="Nombre: Toby"
+            android:layout_marginEnd="8dp"
+            android:text="@string/Adapter_nombre"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+            app:layout_constraintStart_toEndOf="@+id/iv_mascota_item"
+            app:layout_constraintTop_toBottomOf="@+id/tv_estado_item" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/tv_edad_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:text="Edad: 3 meses"
+            android:layout_marginEnd="8dp"
+            android:text="@string/Adapter_edad"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+            app:layout_constraintStart_toEndOf="@+id/iv_mascota_item"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nombre_item" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/tv_contacto_item"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:text="Genero: Macho"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/Adapter_contacto"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toEndOf="@+id/iv_mascota_item"
+            app:layout_constraintTop_toBottomOf="@+id/tv_genero_item" />
+
+        <TextView
+            android:id="@+id/tv_genero_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/Adapter_genero"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_mascota_item"
+            app:layout_constraintTop_toBottomOf="@+id/tv_edad_item"
+            app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="159dp"
-            android:layout_height="136dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:id="@+id/iv_mascota_item"
+            android:layout_width="205dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_contacto_item"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.2"
             app:srcCompat="@drawable/perrito" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 

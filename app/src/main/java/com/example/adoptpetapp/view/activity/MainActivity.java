@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(getApplicationContext(), "Datos correctos",
                                     Toast.LENGTH_SHORT).show();
-                            Intent i = new Intent(getApplicationContext(), PublicarMascotaActivity.class);
+                            Intent i = new Intent(getApplicationContext(), activity_listado.class);
                             startActivity(i);
                             //updateUI(user);
                         } else {
